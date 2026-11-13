@@ -1,0 +1,7 @@
+services:
+  order-link:
+    build: .
+    container_name: order-link
+    restart: unless-stopped
+    ports:
+      - "3020:3000"

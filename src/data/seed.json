@@ -1,0 +1,42 @@
+{
+  "shop": { "name": "شمع‌خانهٔ نارون", "instagramId": "narvan.candle" },
+  "products": [
+    { "id": "p-small", "name": "شمع کوچک ۲۰۰ گرمی", "price": 290000 },
+    { "id": "p-large", "name": "شمع بزرگ ۴۰۰ گرمی", "price": 520000 },
+    { "id": "p-set", "name": "ست هدیهٔ دوتایی", "price": 590000 },
+    { "id": "p-diffuser", "name": "دیفیوزر ۱۰۰ میل", "price": 380000 },
+    { "id": "p-melt", "name": "وکس ملت (بستهٔ ۶ تایی)", "price": 160000 }
+  ],
+  "customers": [
+    { "id": "c01", "name": "تینا امینی", "instagramId": "tina_98", "phone": "09120000101", "city": "تهران", "address": "تهران، سعادت‌آباد، خیابان نمونه، پلاک ۱۲، واحد ۳", "note": "همیشه رایحهٔ دارچین" },
+    { "id": "c02", "name": "الناز پارسا", "instagramId": "elnaz.87_m", "phone": "09120000102", "city": "تهران", "address": "تهران، پونک، کوچهٔ نمونه، پلاک ۴", "note": "مشتری ثابت، هر ماه" },
+    { "id": "c03", "name": "سینا موسوی", "instagramId": "sina..home", "phone": "09130000103", "city": "اصفهان", "address": "اصفهان، خیابان نمونه، مجتمع آفتاب، واحد ۷", "note": "" },
+    { "id": "c04", "name": "ندا میرزایی", "instagramId": "neda.75x", "phone": "09150000104", "city": "مشهد", "address": "مشهد، بلوار نمونه، پلاک ۲۰", "note": "بسته را به نگهبانی تحویل بدهید" },
+    { "id": "c05", "name": "حسین عباسی", "instagramId": "hossein.4", "phone": "09120000105", "city": "کرج", "address": "کرج، گوهردشت، خیابان نمونه، پلاک ۹", "note": "" },
+    { "id": "c06", "name": "کتایون میرزایی", "instagramId": "katayoun._m", "phone": "09110000106", "city": "رشت", "address": "رشت، گلسار، خیابان نمونه، پلاک ۳۳", "note": "برای خواهرش هم سفارش می‌دهد" },
+    { "id": "c07", "name": "پویا شریفی", "instagramId": "pouya.6", "phone": "09170000107", "city": "شیراز", "address": "شیراز، معالی‌آباد، کوچهٔ نمونه، پلاک ۱۵", "note": "" },
+    { "id": "c08", "name": "سارا سلطانی", "instagramId": "sara.x", "phone": "09120000108", "city": "تهران", "address": "تهران، نارمک، میدان نمونه، پلاک ۸", "note": "پیک، فقط بعد از ساعت ۱۷" },
+    { "id": "c09", "name": "بیتا جعفری", "instagramId": "bita_91_m", "phone": "09140000109", "city": "تبریز", "address": "تبریز، ولیعصر، خیابان نمونه، پلاک ۲", "note": "" },
+    { "id": "c10", "name": "آتنا وحیدی", "instagramId": "atena", "phone": "09120000110", "city": "تهران", "address": "تهران، تهرانپارس، خیابان نمونه، پلاک ۴۱", "note": "ست هدیه با کارت تبریک" },
+    { "id": "c11", "name": "رضا فرهادی", "instagramId": "reza86_s", "phone": "09190000111", "city": "قزوین", "address": "قزوین، خیابان نمونه، پلاک ۶", "note": "" },
+    { "id": "c12", "name": "مهناز کریمی", "instagramId": "mahnaz_97x", "phone": "09120000112", "city": "تهران", "address": "تهران، جنت‌آباد، کوچهٔ نمونه، پلاک ۲۷", "note": "هنوز سفارشی ندارد" }
+  ],
+  "orders": [
+    { "id": "d4k9wz", "customerId": "c01", "status": "shipped", "createdAt": "2026-10-02T17:20:00.000Z", "paidAt": "2026-10-02T19:05:00.000Z", "shippedAt": "2026-10-03T09:30:00.000Z", "trackingCode": "264814731125", "items": [{ "productId": "p-small", "name": "شمع کوچک ۲۰۰ گرمی", "quantity": 2, "unitPrice": 290000 }] },
+    { "id": "m7q2xa", "customerId": "c01", "status": "paid", "createdAt": "2026-11-08T18:10:00.000Z", "paidAt": "2026-11-08T20:40:00.000Z", "items": [{ "productId": "p-small", "name": "شمع کوچک ۲۰۰ گرمی", "quantity": 2, "unitPrice": 290000 }] },
+    { "id": "t3n8re", "customerId": "c02", "status": "shipped", "createdAt": "2026-09-05T16:00:00.000Z", "paidAt": "2026-09-05T16:45:00.000Z", "shippedAt": "2026-09-06T10:00:00.000Z", "trackingCode": "264810816824", "items": [{ "productId": "p-large", "name": "شمع بزرگ ۴۰۰ گرمی", "quantity": 1, "unitPrice": 520000 }] },
+    { "id": "h5v1pc", "customerId": "c02", "status": "shipped", "createdAt": "2026-10-06T15:30:00.000Z", "paidAt": "2026-10-06T15:50:00.000Z", "shippedAt": "2026-10-07T09:15:00.000Z", "trackingCode": "264838925793", "items": [{ "productId": "p-large", "name": "شمع بزرگ ۴۰۰ گرمی", "quantity": 1, "unitPrice": 520000 }, { "productId": "p-melt", "name": "وکس ملت (بستهٔ ۶ تایی)", "quantity": 1, "unitPrice": 160000 }] },
+    { "id": "b9y4ks", "customerId": "c02", "status": "awaiting_payment", "createdAt": "2026-11-12T19:45:00.000Z", "items": [{ "productId": "p-large", "name": "شمع بزرگ ۴۰۰ گرمی", "quantity": 1, "unitPrice": 520000 }, { "productId": "p-melt", "name": "وکس ملت (بستهٔ ۶ تایی)", "quantity": 1, "unitPrice": 160000 }] },
+    { "id": "w2c6jf", "customerId": "c03", "status": "shipped", "createdAt": "2026-10-20T12:00:00.000Z", "paidAt": "2026-10-20T13:10:00.000Z", "shippedAt": "2026-10-21T08:40:00.000Z", "trackingCode": "264842195320", "items": [{ "productId": "p-diffuser", "name": "دیفیوزر ۱۰۰ میل", "quantity": 1, "unitPrice": 380000 }] },
+    { "id": "z8r3ub", "customerId": "c04", "status": "paid", "createdAt": "2026-11-09T14:25:00.000Z", "paidAt": "2026-11-09T21:00:00.000Z", "items": [{ "productId": "p-set", "name": "ست هدیهٔ دوتایی", "quantity": 1, "unitPrice": 590000 }] },
+    { "id": "q6d1hn", "customerId": "c05", "status": "shipped", "createdAt": "2026-10-11T10:10:00.000Z", "paidAt": "2026-10-11T11:00:00.000Z", "shippedAt": "2026-10-12T09:00:00.000Z", "trackingCode": "264842228413", "items": [{ "productId": "p-small", "name": "شمع کوچک ۲۰۰ گرمی", "quantity": 3, "unitPrice": 290000 }] },
+    { "id": "f1x7mt", "customerId": "c05", "status": "awaiting_payment", "createdAt": "2026-11-13T09:30:00.000Z", "items": [{ "productId": "p-small", "name": "شمع کوچک ۲۰۰ گرمی", "quantity": 3, "unitPrice": 290000 }] },
+    { "id": "g4p9la", "customerId": "c06", "status": "shipped", "createdAt": "2026-10-15T17:00:00.000Z", "paidAt": "2026-10-15T17:30:00.000Z", "shippedAt": "2026-10-16T10:20:00.000Z", "trackingCode": "264842164496", "items": [{ "productId": "p-set", "name": "ست هدیهٔ دوتایی", "quantity": 1, "unitPrice": 590000 }] },
+    { "id": "n2s5vd", "customerId": "c06", "status": "paid", "createdAt": "2026-11-13T11:15:00.000Z", "paidAt": "2026-11-13T12:05:00.000Z", "items": [{ "productId": "p-set", "name": "ست هدیهٔ دوتایی", "quantity": 1, "unitPrice": 590000 }] },
+    { "id": "y7b3ce", "customerId": "c07", "status": "shipped", "createdAt": "2026-09-22T13:40:00.000Z", "paidAt": "2026-09-22T14:00:00.000Z", "shippedAt": "2026-09-23T09:10:00.000Z", "trackingCode": "264819004417", "items": [{ "productId": "p-large", "name": "شمع بزرگ ۴۰۰ گرمی", "quantity": 2, "unitPrice": 520000 }] },
+    { "id": "k1m8qg", "customerId": "c08", "status": "shipped", "createdAt": "2026-11-01T18:00:00.000Z", "paidAt": "2026-11-01T18:20:00.000Z", "shippedAt": "2026-11-02T17:30:00.000Z", "trackingCode": "پیک، تحویل شد", "items": [{ "productId": "p-diffuser", "name": "دیفیوزر ۱۰۰ میل", "quantity": 2, "unitPrice": 380000 }] },
+    { "id": "u5j2xr", "customerId": "c09", "status": "awaiting_payment", "createdAt": "2026-11-11T20:30:00.000Z", "items": [{ "productId": "p-melt", "name": "وکس ملت (بستهٔ ۶ تایی)", "quantity": 2, "unitPrice": 160000 }] },
+    { "id": "e9w4tn", "customerId": "c10", "status": "shipped", "createdAt": "2026-10-28T16:45:00.000Z", "paidAt": "2026-10-28T17:00:00.000Z", "shippedAt": "2026-10-29T09:00:00.000Z", "trackingCode": "264855120093", "items": [{ "productId": "p-set", "name": "ست هدیهٔ دوتایی", "quantity": 2, "unitPrice": 590000 }] },
+    { "id": "r3h6zp", "customerId": "c11", "status": "shipped", "createdAt": "2026-10-09T12:30:00.000Z", "paidAt": "2026-10-09T13:00:00.000Z", "shippedAt": "2026-10-10T08:50:00.000Z", "trackingCode": "264841700562", "items": [{ "productId": "p-small", "name": "شمع کوچک ۲۰۰ گرمی", "quantity": 1, "unitPrice": 290000 }] }
+  ]
+}
